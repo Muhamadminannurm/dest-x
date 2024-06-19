@@ -1,0 +1,612 @@
+{
+  "destinations": [
+    {
+      "id": "1",
+      "name": "Danau Toba",
+      "description": "Danau vulkanik terbesar di dunia dengan pemandangan yang memukau dan pulau Samosir di tengahnya.",
+      "pictureId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMbB-e4is8nyDVnKQ2Pnq7trxwx8M_9xC6Jw&s",
+      "city": "Sumatera Utara",
+      "rating": 4.8
+    },
+    {
+      "id": "2",
+      "name": "Pulau Samosir",
+      "description": "Pulau yang terletak di tengah Danau Toba, terkenal dengan budaya Batak yang khas.",
+      "pictureId": "https://cdn1-production-images-kly.akamaized.net/pxJH9evB6frYA8xiy6VYM61nuQQ=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3334284/original/021969300_1609051663-leo-sagala-4wqydpxOlyI-unsplash1.jpg",
+      "city": "Sumatera Utara",
+      "rating": 4.7
+    },
+    {
+      "id": "3",
+      "name": "Bukit Tinggi",
+      "description": "Kota di dataran tinggi dengan jam gadang dan panorama alam yang indah.",
+      "pictureId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUelt6FmZIBQWR5ITVga7sOYZELxg_nzNvBQ&s",
+      "city": "Sumatera Barat",
+      "rating": 4.6
+    },
+    {
+      "id": "4",
+      "name": "Ngarai Sianok",
+      "description": "Lembah yang mempesona dengan tebing-tebing tinggi dan pemandangan alam yang menakjubkan.",
+      "pictureId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyJ5jzNcYmbesxJbgco9sAkhjlhss1vfnOzA&s",
+      "city": "Sumatera Barat",
+      "rating": 4.7
+    },
+    {
+      "id": "5",
+      "name": "Pantai Parai Tenggiri",
+      "description": "Pantai berpasir putih dengan air laut yang jernih dan batu-batu granit besar.",
+      "pictureId": "https://fastly.4sqi.net/img/general/300x300/5988381_R_C-9Myi9bya14XzVWwzKN-iNdb4djF5-tzZCkHjb_Y.jpg",
+      "city": "Bangka Belitung",
+      "rating": 4.6
+    },
+    {
+      "id": "6",
+      "name": "Pulau Lengkuas",
+      "description": "Pulau kecil dengan mercusuar tua dan spot snorkeling yang indah.",
+      "pictureId": "https://belitungwonderful.com/wp-content/uploads/2016/12/Pulau-Lengkuas-Belitung.jpg",
+      "city": "Bangka Belitung",
+      "rating": 4.7
+    },
+    {
+      "id": "7",
+      "name": "Taman Nasional Way Kambas",
+      "description": "Habitat gajah dan satwa liar lainnya, serta pusat konservasi gajah Sumatera.",
+      "pictureId": "https://cdn.idntimes.com/content-images/post/20181224/taman-nasional-way-kambas-b24de22cd86f7678c85137ec98f65cce_600x400.jpg",
+      "city": "Lampung",
+      "rating": 4.8
+    },
+    {
+      "id": "8",
+      "name": "Pantai Mutun",
+      "description": "Pantai dengan pasir putih dan air laut yang tenang, cocok untuk berenang dan bersantai.",
+      "pictureId": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/e3/ae/c2/pantai-mutun.jpg?w=1200&h=-1&s=1",
+      "city": "Lampung",
+      "rating": 4.5
+    },
+    {
+      "id": "9",
+      "name": "Kepulauan Seribu",
+      "description": "Gugusan pulau-pulau kecil dengan spot diving dan snorkeling yang memukau.",
+      "pictureId": "https://cdn0-production-images-kly.akamaized.net/ihBNyN8ZHQydjBe4KK6PqlkfJtQ=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4186604/original/002050700_1665391899-shutterstock_2010202298.jpg",
+      "city": "DKI Jakarta",
+      "rating": 4.6
+    },
+    {
+      "id": "10",
+      "name": "Monumen Nasional (Monas)",
+      "description": "Tugu peringatan kemerdekaan Indonesia dengan pemandangan kota dari puncaknya.",
+      "pictureId": "https://media-cdn.tripadvisor.com/media/photo-s/0f/c1/75/68/photo0jpg.jpg",
+      "city": "DKI Jakarta",
+      "rating": 4.7
+    },
+    {
+      "id": "11",
+      "name": "Kebun Raya Bogor",
+      "description": "Kebun botani dengan koleksi tumbuhan yang sangat beragam dan suasana yang sejuk.",
+      "pictureId": "https://storage.googleapis.com/seo-cms/assets/kebun_raya_bogor_1_9332196c17/kebun_raya_bogor_1_9332196c17.jpg",
+      "city": "Jawa Barat",
+      "rating": 4.8
+    },
+    {
+      "id": "12",
+      "name": "Tangkuban Perahu",
+      "description": "Gunung berapi aktif dengan kawah yang dapat dikunjungi dan panorama alam yang menakjubkan.",
+      "pictureId": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2021/02/04/f12b8d46-03f2-42ad-a620-5e7ad748aec8-1612403518383-adf8c9df733bf89681751d3427f993d7.jpg",
+      "city": "Jawa Barat",
+      "rating": 4.7
+    },
+    {
+      "id": "13",
+      "name": "Candi Borobudur",
+      "description": "Candi Buddha terbesar di dunia dengan relief-relief yang indah dan sejarah yang kaya.",
+      "pictureId": "https://fatek.umsu.ac.id/wp-content/uploads/2023/06/Candi-Borobudur-Makna-Yang-Terkandung-di-Dalamnya.jpg",
+      "city": "Jawa Tengah",
+      "rating": 4.9
+    },
+    {
+      "id": "14",
+      "name": "Dieng Plateau",
+      "description": "Dataran tinggi dengan kawah, candi, dan pemandangan alam yang menakjubkan.",
+      "pictureId": "https://asset.kompas.com/crops/qO62aZmeVZf4U70Jn-A5E9L-_r8=/0x0:0x0/750x500/data/photo/2021/11/10/618b2344e2870.jpg",
+      "city": "Jawa Tengah",
+      "rating": 4.8
+    },
+    {
+      "id": "15",
+      "name": "Gunung Bromo",
+      "description": "Gunung berapi aktif dengan pemandangan matahari terbit yang spektakuler.",
+      "pictureId": "https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/bromo.jpg",
+      "city": "Jawa Timur",
+      "rating": 4.9
+    },
+    {
+      "id": "16",
+      "name": "Kawah Ijen",
+      "description": "Kawah dengan fenomena api biru dan danau asam terbesar di dunia.",
+      "pictureId": "https://www.inilah.com/_next/image?url=https%3A%2F%2Fc.inilah.com%2Freborn%2F2024%2F04%2FBanyuwangi_Tourism_77db6a8743.webp&w=1920&q=75",
+      "city": "Jawa Timur",
+      "rating": 4.8
+    },
+    {
+      "id": "17",
+      "name": "Pantai Kuta",
+      "description": "Pantai terkenal dengan ombak yang cocok untuk berselancar dan pemandangan matahari terbenam.",
+      "pictureId": "https://www.gotravelaindonesia.com/wp-content/uploads/Pantai-Kuta-Bali-beach.jpg",
+      "city": "Bali",
+      "rating": 4.7
+    },
+    {
+      "id": "18",
+      "name": "Ubud",
+      "description": "Pusat seni dan budaya Bali dengan pemandangan sawah terasering dan hutan monyet.",
+      "pictureId": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/54/f4/01/saraswati-temple-in-ubud.jpg?w=600&h=400&s=1",
+      "city": "Bali",
+      "rating": 4.8
+    },
+    {
+      "id": "19",
+      "name": "Gili Trawangan",
+      "description": "Pulau kecil dengan pantai pasir putih, spot snorkeling, dan suasana malam yang ramai.",
+      "pictureId": "https://glints.com/id/lowongan/wp-content/uploads/2024/02/8D172A76-1C18-417D-AA7A-56983784FA78.jpeg",
+      "city": "Nusa Tenggara Barat",
+      "rating": 4.8
+    },
+    {
+      "id": "20",
+      "name": "Gunung Rinjani",
+      "description": "Gunung tertinggi kedua di Indonesia dengan trekking yang menantang dan pemandangan indah.",
+      "pictureId": "https://asset.kompas.com/crops/WYcYPfavcrfsNzSm6bXugeuKloA=/0x0:740x493/750x500/data/photo/2021/03/27/605e9f16e805f.jpg",
+      "city": "Nusa Tenggara Barat",
+      "rating": 4.9
+    },
+    {
+      "id": "21",
+      "name": "Taman Nasional Komodo",
+      "description": "Habitat asli komodo dengan pemandangan alam yang eksotis.",
+      "pictureId": "https://asset.kompas.com/crops/DfGpMi-jZSs2yppAa6vFNJvkEOU=/62x59:920x631/750x500/data/photo/2020/11/06/5fa4e37d84b13.jpg",
+      "city": "Nusa Tenggara Timur",
+      "rating": 4.9
+    },
+    {
+      "id": "22",
+      "name": "Pantai Pink",
+      "description": "Pantai unik dengan pasir berwarna merah muda dan air laut yang jernih.",
+      "pictureId": "https://akcdn.detik.net.id/visual/2021/06/08/pantai-pink-ntt_169.jpeg?w=650",
+      "city": "Nusa Tenggara Timur",
+      "rating": 4.8
+    },
+    {
+      "id": "23",
+      "name": "Pantai Losari",
+      "description": "Pantai terkenal di Makassar dengan pemandangan matahari terbenam yang indah.",
+      "pictureId": "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/182/2023/11/27/losari-3332630521.jpeg",
+      "city": "Sulawesi Selatan",
+      "rating": 4.6
+    },
+    {
+      "id": "24",
+      "name": "Tana Toraja",
+      "description": "Wilayah dengan budaya unik dan rumah adat Tongkonan yang khas.",
+      "pictureId": "https://assets-a1.kompasiana.com/items/album/2022/07/28/tana-toraja-62e1f2d43555e42efe096776.jpg",
+      "city": "Sulawesi Selatan",
+      "rating": 4.7
+    },
+    {
+      "id": "25",
+      "name": "Bunaken",
+      "description": "Taman laut dengan keanekaragaman hayati bawah laut yang menakjubkan.",
+      "pictureId": "https://www.gotravelaindonesia.com/wp-content/uploads/Taman-Laut-Bunaken-Manado.jpg",
+      "city": "Sulawesi Utara",
+      "rating": 4.8
+    },
+    {
+      "id": "26",
+      "name": "Danau Tondano",
+      "description": "Danau vulkanik dengan pemandangan pegunungan yang indah di sekitarnya.",
+      "pictureId": "https://asset-2.tstatic.net/tribunmanadotravel/foto/bank/images/tondano1.jpg",
+      "city": "Sulawesi Utara",
+      "rating": 4.6
+    },
+    {
+      "id": "27",
+      "name": "Kepulauan Derawan",
+      "description": "Kepulauan dengan keindahan bawah laut yang luar biasa dan habitat penyu hijau.",
+      "pictureId": "https://i0.wp.com/pranala.co/wp-content/uploads/2022/05/IMG_20220507_211229.jpg?fit=889%2C500&ssl=1",
+      "city": "Kalimantan Timur",
+      "rating": 4.8
+    },
+    {
+      "id": "28",
+      "name": "Bukit Bangkirai",
+      "description": "Hutan tropis dengan jembatan gantung dan pemandangan alam yang menawan.",
+      "pictureId": "https://indonesiakaya.com/wp-content/uploads/2020/10/1__IMG_2794_Kawasan_wisata_alam_Bukit_Bangkirai_terletak_kurang_lebih_58_kilometer_dari_Kota_Balikpapan.jpg",
+      "city": "Kalimantan Timur",
+      "rating": 4.7
+    },
+    {
+      "id": "29",
+      "name": "Taman Nasional Tanjung Puting",
+      "description": "Habitat orangutan dengan trekking di hutan tropis dan pengalaman wildlife.",
+      "pictureId": "https://asset.kompas.com/crops/rS9Tx0RWoTT3iKohMEX0PMcmJbM=/0x0:750x500/750x500/data/photo/2022/02/24/6216f993c35a0.jpg",
+      "city": "Kalimantan Tengah",
+      "rating": 4.9
+    },
+    {
+      "id": "30",
+      "name": "Pantai Ujung Pandaran",
+      "description": "Pantai yang tenang dengan pasir putih dan pemandangan laut yang luas.",
+      "pictureId": "https://ksmtour.com/media/images/articles6/pantai-ujung-pandaran-kalimantan-tengah.jpg",
+      "city": "Kalimantan Tengah",
+      "rating": 4.5
+    },
+    {
+      "id": "31",
+      "name": "Pantai Amal",
+      "description": "Pantai dengan pasir putih dan pemandangan laut yang menenangkan.",
+      "pictureId": "https://www.celebes.co/borneo/wp-content/uploads/2022/08/Mengenal-Pantai-Amal.jpg",
+      "city": "Kalimantan Utara",
+      "rating": 4.5
+    },
+    {
+      "id": "32",
+      "name": "Air Terjun Gunung Rian",
+      "description": "Air terjun dengan aliran yang deras dan suasana alam yang asri.",
+      "pictureId": "https://pergiyuk.com/wp-content/uploads/2022/11/Air-Terjun-Gunung-Rian.jpg",
+      "city": "Kalimantan Utara",
+      "rating": 4.6
+    },
+    {
+      "id": "33",
+      "name": "Kepulauan Kei",
+      "description": "Kepulauan dengan pantai pasir putih dan air laut yang jernih.",
+      "pictureId": "https://tour.dolandolen.com/wp-content/uploads/2018/01/Explore-Kepulauan-Kei-Maluku.jpg",
+      "city": "Maluku",
+      "rating": 4.7
+    },
+    {
+      "id": "34",
+      "name": "Banda Neira",
+      "description": "Pulau dengan sejarah perdagangan rempah-rempah dan keindahan bawah laut.",
+      "pictureId": "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/12/30/3850143609.png",
+      "city": "Maluku",
+      "rating": 4.8
+    },
+    {
+      "id": "35",
+      "name": "Pantai Natsepa",
+      "description": "Pantai dengan pasir putih dan air laut yang jernih, cocok untuk berenang dan bersantai.",
+      "pictureId": "https://dbijapkm3o6fj.cloudfront.net/resources/9047,1004,1,1,4,0,600,450/-4601-/20160916220811/pantai-natsepa.jpeg",
+      "city": "Maluku Utara",
+      "rating": 4.6
+    },
+    {
+      "id": "36",
+      "name": "Pulau Morotai",
+      "description": "Pulau dengan sejarah Perang Dunia II dan spot diving yang menakjubkan.",
+      "pictureId": "https://asset.kompas.com/crops/rIaDsml_U1Vwq_9p11dnEQ-Wi1M=/87x0:917x553/750x500/data/photo/2021/10/20/616fe1a3bac83.jpg",
+      "city": "Maluku Utara",
+      "rating": 4.7
+    },
+    {
+      "id": "37",
+      "name": "Raja Ampat",
+      "description": "Kepulauan dengan keindahan bawah laut yang luar biasa dan keanekaragaman hayati laut yang tinggi.",
+      "pictureId": "https://static.cdntap.com/tap-assets-prod/wp-content/uploads/sites/24/2022/01/fakta-raja-ampat-1.jpg",
+      "city": "Papua Barat",
+      "rating": 4.9
+    },
+    {
+      "id": "38",
+      "name": "Teluk Triton",
+      "description": "Teluk dengan pemandangan karst dan keindahan bawah laut yang menakjubkan.",
+      "pictureId": "https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/teluk-triton.jpg",
+      "city": "Papua Barat",
+      "rating": 4.8
+    },
+    {
+      "id": "39",
+      "name": "Lembah Baliem",
+      "description": "Lembah yang dihuni oleh suku Dani dengan budaya yang masih tradisional.",
+      "pictureId": "https://akcdn.detik.net.id/visual/2019/07/24/9cc71ce0-caf1-4937-9a27-bf09aaef6d2b_169.jpeg?w=650",
+      "city": "Papua",
+      "rating": 4.7
+    },
+    {
+      "id": "40",
+      "name": "Danau Sentani",
+      "description": "Danau terbesar di Papua dengan pulau-pulau kecil dan pemandangan yang indah.",
+      "pictureId": "https://asset.kompas.com/crops/ZVmlnT0n3gHouZuIk_xLay5FlWY=/114x0:720x404/750x500/data/photo/2021/10/04/615a91e0059ad.jpg",
+      "city": "Papua",
+      "rating": 4.6
+    },
+    {
+      "id": "41",
+      "name": "Pantai Carocok",
+      "description": "Pantai dengan air jernih dan pemandangan yang menawan di Pesisir Selatan.",
+      "pictureId": "https://painanselatanpainan.pesisirselatankab.go.id/desa/upload/artikel/sedang_1657606058_melihat-keindahan-masjid-terapung-carocok-painan-viral-karena-masuk-harus-bayar-rp5-ribu85_700.jpg",
+      "city": "Sumatera Barat",
+      "rating": 4.7
+    },
+    {
+      "id": "42",
+      "name": "Jembatan Ampera",
+      "description": "Ikon Kota Palembang yang megah dengan pemandangan sungai Musi.",
+      "pictureId": "https://asset.kompas.com/crops/BEXIeygjK7zzBJSYY0uwZpCEOVQ=/0x17:1000x684/750x500/data/photo/2020/02/25/5e55027107155.jpg",
+      "city": "Sumatera Selatan",
+      "rating": 4.6
+    },
+    {
+      "id": "43",
+      "name": "Pulau Kemaro",
+      "description": "Pulau di tengah sungai Musi dengan pagoda dan vihara yang indah.",
+      "pictureId": "https://img.okezone.com/content/2021/03/03/406/2371314/ini-3-konsep-penataan-wisata-pulau-kemaro-mana-yang-cocok-rqTBU1DosK.jpg",
+      "city": "Sumatera Selatan",
+      "rating": 4.5
+    },
+    {
+      "id": "44",
+      "name": "Danau Ranau",
+      "description": "Danau vulkanik dengan pemandangan pegunungan dan udara yang sejuk.",
+      "pictureId": "https://asset.kompas.com/crops/DDBwNvR7AskPVciAx1LOmzfQR3A=/0x72:1000x738/750x500/data/photo/2022/06/08/62a0972858cb1.jpg",
+      "city": "Sumatera Selatan",
+      "rating": 4.7
+    },
+    {
+      "id": "45",
+      "name": "Pulau Berhala",
+      "description": "Pulau kecil dengan pantai berpasir putih dan tempat penangkaran penyu.",
+      "pictureId": "https://analisadaily.com/imagesfile/202010/20201030-000554_foto-pulau-berhala-di-selat-malaka.jpeg",
+      "city": "Jambi",
+      "rating": 4.6
+    },
+    {
+      "id": "46",
+      "name": "Danau Gunung Tujuh",
+      "description": "Danau tertinggi di Asia Tenggara dengan pemandangan pegunungan yang indah.",
+      "pictureId": "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/590/2023/10/12/Danau-Gunung-Tujuh-814885691.jpg",
+      "city": "Jambi",
+      "rating": 4.7
+    },
+    {
+      "id": "47",
+      "name": "Pantai Panjang",
+      "description": "Pantai dengan garis pantai yang panjang dan pemandangan matahari terbenam yang menakjubkan.",
+      "pictureId": "https://static.promediateknologi.id/crop/0x0:0x0/x/photo/p2/160/2023/09/02/Pantai-Panjang-Bengkulu-3683441433.jpg",
+      "city": "Bengkulu",
+      "rating": 4.6
+    },
+    {
+      "id": "48",
+      "name": "Benteng Marlborough",
+      "description": "Benteng peninggalan kolonial Inggris dengan sejarah yang kaya.",
+      "pictureId": "https://pariwisata.bengkuluprov.go.id/assets/images/multimedia/wisata_benteng-marbborough-dari-ketinggian_1661149937936.jpg",
+      "city": "Bengkulu",
+      "rating": 4.5
+    },
+    {
+      "id": "49",
+      "name": "Danau Singkarak",
+      "description": "Danau terbesar di Sumatera Barat dengan pemandangan alam yang menakjubkan.",
+      "pictureId": "https://cdn.idntimes.com/content-images/community/2023/08/20230804-170854-329ae2b286ff7799fbbec7d4597d307a-958e127b8f4cd6200bbbf278c4dd7449.jpg",
+      "city": "Sumatera Barat",
+      "rating": 4.7
+    },
+    {
+      "id": "50",
+      "name": "Puncak Lawang",
+      "description": "Tempat wisata di ketinggian dengan pemandangan Danau Maninjau yang indah.",
+      "pictureId": "https://escapeartistkatie.com/wp-content/uploads/2023/08/view-maninjau-first-viewpoint.jpg",
+      "city": "Sumatera Barat",
+      "rating": 4.6
+    },
+    {
+      "id": "51",
+      "name": "Istana Maimun",
+      "description": "Istana peninggalan Kesultanan Deli dengan arsitektur yang megah.",
+      "pictureId": "https://muslimahnews.net/wp-content/uploads/2023/08/photo_2023-08-20_19-34-47.jpg",
+      "city": "Sumatera Utara",
+      "rating": 4.5
+    },
+    {
+      "id": "52",
+      "name": "Pulau Weh",
+      "description": "Pulau kecil dengan keindahan bawah laut dan spot diving yang luar biasa.",
+      "pictureId": "https://beritakini.co/files/images/20230516-sosoosoal.jpg",
+      "city": "Aceh",
+      "rating": 4.8
+    },
+    {
+      "id": "53",
+      "name": "Taman Sari Gunongan",
+      "description": "Taman dengan bangunan peninggalan Sultan Iskandar Muda.",
+      "pictureId": "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/08/07/Gunongan-bersebelahan-dengan-Makam-Iskandar-Tsani-381029396.jpg",
+      "city": "Aceh",
+      "rating": 4.6
+    },
+    {
+      "id": "54",
+      "name": "Taman Mini Indonesia Indah",
+      "description": "Taman wisata budaya yang menampilkan miniatur budaya Indonesia dari Sabang sampai Merauke.",
+      "pictureId": "https://o-cdn-cas.sirclocdn.com/parenting/images/ada-apa-saja-di-taman-mini.width-800.format-webp.webp",
+      "city": "DKI Jakarta",
+      "rating": 4.7
+    },
+    {
+      "id": "55",
+      "name": "Museum Nasional Indonesia",
+      "description": "Museum yang menampilkan sejarah dan budaya Indonesia dengan koleksi yang sangat lengkap.",
+      "pictureId": "https://awsimages.detik.net.id/community/media/visual/2022/07/15/harga-tiket-museum-nasional-naik-16-juli-ini-daftar-lengkapnya.jpeg?w=600&q=90",
+      "city": "DKI Jakarta",
+      "rating": 4.8
+    },
+    {
+      "id": "56",
+      "name": "Pantai Carita",
+      "description": "Pantai dengan pemandangan laut dan Gunung Krakatau yang indah.",
+      "pictureId": "https://bobobox.com/blog/wp-content//uploads/2023/10/pantai-anyer-carita.webp",
+      "city": "Banten",
+      "rating": 4.6
+    },
+    {
+      "id": "57",
+      "name": "Ujung Kulon",
+      "description": "Taman nasional dengan habitat badak Jawa dan hutan tropis yang lebat.",
+      "pictureId": "https://img.okezone.com/content/2020/03/18/340/2185399/dampak-corona-objek-wisata-di-taman-nasional-ujung-kulon-ditutup-PjXxYwJVvW.jpg",
+      "city": "Banten",
+      "rating": 4.7
+    },
+    {
+      "id": "58",
+      "name": "Pantai Pangandaran",
+      "description": "Pantai dengan pemandangan matahari terbit dan terbenam yang indah.",
+      "pictureId": "https://www.marketeers.com/_next/image/?url=https%3A%2F%2Fimagedelivery.net%2F2MtOYVTKaiU0CCt-BLmtWw%2F5857b333-e201-439e-5173-661262f3f100%2Fw%3D750&w=1920&q=75",
+      "city": "Jawa Barat",
+      "rating": 4.6
+    },
+    {
+      "id": "59",
+      "name": "Kawah Putih",
+      "description": "Danau kawah dengan air berwarna putih kehijauan yang eksotis.",
+      "pictureId": "https://asset.kompas.com/crops/yejbAG5BVJAudCyNgIM_mZCw_xU=/0x0:1003x669/750x500/data/photo/2021/09/26/615070d94add1.jpg",
+      "city": "Jawa Barat",
+      "rating": 4.7
+    },
+    {
+      "id": "60",
+      "name": "Kota Tua Jakarta",
+      "description": "Kawasan bersejarah dengan bangunan kolonial dan museum-museum menarik.",
+      "pictureId": "https://asset.kompas.com/crops/21QAQQA2r75BSzFFzJpwNHeIVe0=/43x0:895x568/750x500/data/photo/2023/09/27/6513a179e3201.jpg",
+      "city": "DKI Jakarta",
+      "rating": 4.6
+    },
+    {
+      "id": "61",
+      "name": "Taman Safari Indonesia",
+      "description": "Kebun binatang dengan konsep safari yang memungkinkan pengunjung melihat satwa liar dari dekat.",
+      "pictureId": "https://javaprivatetour.com/img/destinasi/2efdffd1b2a9be785df3c9a8e1282f7a.jpg",
+      "city": "Jawa Barat",
+      "rating": 4.8
+    },
+    {
+      "id": "62",
+      "name": "Taman Nasional Bromo Tengger Semeru",
+      "description": "Taman nasional dengan pemandangan Gunung Bromo dan Semeru yang menakjubkan.",
+      "pictureId": "https://asset.kompas.com/crops/dPkwR4TmPDlpOIKfXZ08S7IVDeQ=/0x0:1200x800/750x500/data/photo/2021/10/29/617b830f26293.png",
+      "city": "Jawa Timur",
+      "rating": 4.9
+    },
+    {
+      "id": "63",
+      "name": "Pantai Pulau Merah",
+      "description": "Pantai dengan ombak yang cocok untuk surfing dan pemandangan indah.",
+      "pictureId": "https://img.okezone.com/content/2021/06/04/408/2420389/wisata-pantai-pulau-merah-banyuwangi-surganya-pencinta-selancar-di7N7YT39K.jpg",
+      "city": "Jawa Timur",
+      "rating": 4.6
+    },
+    {
+      "id": "64",
+      "name": "Gunung Batur",
+      "description": "Gunung berapi aktif dengan trekking dan pemandangan matahari terbit yang spektakuler.",
+      "pictureId": "https://cdn1-production-images-kly.akamaized.net/G4TqY99SvOBVcm7HKlRsNq88uHw=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4580036/original/025010800_1695051144-WhatsApp_Image_2023-09-18_at_22.30.57.jpeg",
+      "city": "Bali",
+      "rating": 4.8
+    },
+    {
+      "id": "65",
+      "name": "Pantai Sanur",
+      "description": "Pantai yang tenang dengan pemandangan matahari terbit dan pasir putih.",
+      "pictureId": "https://www.befreetour.com/img/attraction/sanur-beach20191019122349.jpg",
+      "city": "Bali",
+      "rating": 4.6
+    },
+    {
+      "id": "66",
+      "name": "Labuan Bajo",
+      "description": "Kota pelabuhan dengan akses ke Taman Nasional Komodo dan spot diving yang luar biasa.",
+      "pictureId": "https://res.klook.com/image/upload/Mobile/City/rv76yqukp2hey0fckh99.jpg",
+      "city": "Nusa Tenggara Timur",
+      "rating": 4.8
+    },
+    {
+      "id": "67",
+      "name": "Pulau Alor",
+      "description": "Pulau dengan keindahan bawah laut yang menakjubkan dan budaya tradisional yang kaya.",
+      "pictureId": "https://blog.pigijo.com/wp-content/uploads/2022/08/Pulau-alor-2.jpg",
+      "city": "Nusa Tenggara Timur",
+      "rating": 4.7
+    },
+    {
+      "id": "68",
+      "name": "Taman Nasional Wakatobi",
+      "description": "Taman nasional dengan keanekaragaman hayati laut yang sangat tinggi dan spot diving yang luar biasa.",
+      "pictureId": "https://www.senangrekreasi.com/wp-content/uploads/2023/11/taman-nasional-wakatobi-14-2.webp",
+      "city": "Sulawesi Tenggara",
+      "rating": 4.9
+    },
+    {
+      "id": "69",
+      "name": "Pantai Nirwana",
+      "description": "Pantai dengan pasir putih dan air laut yang jernih di Bau-Bau.",
+      "pictureId": "https://pariwisata.sultraprov.go.id/wp-content/uploads/2022/12/Nirwana-baubau-scaled.jpg",
+      "city": "Sulawesi Tenggara",
+      "rating": 4.7
+    },
+    {
+      "id": "70",
+      "name": "Taman Nasional Lore Lindu",
+      "description": "Taman nasional dengan hutan tropis yang lebat dan berbagai spesies satwa endemik.",
+      "pictureId": "https://www.iwarebatik.org/wp-content/uploads/2020/01/large-47333dsc04375-c513af47d354fee6ff9024c9bc93abec.jpg",
+      "city": "Sulawesi Tengah",
+      "rating": 4.6
+    },
+    {
+      "id": "71",
+      "name": "Danau Poso",
+      "description": "Danau terbesar ketiga di Indonesia dengan air yang jernih dan pemandangan alam yang indah.",
+      "pictureId": "https://cdn0-production-images-kly.akamaized.net/NnOO4W8nWACnzyLyQjb3rVfEITk=/0x0:4000x2250/1200x675/filters:quality(75):strip_icc():format(jpeg):watermark(kly-media-production/assets/images/watermarks/liputan6/watermark-color-landscape-new.png,1100,20,0)/kly-media-production/medias/4138478/original/018997400_1661694921-danau_poso_jo_2.JPG",
+      "city": "Sulawesi Tengah",
+      "rating": 4.7
+    },
+    {
+      "id": "72",
+      "name": "Pulau Togean",
+      "description": "Kepulauan dengan keindahan bawah laut yang menakjubkan dan spot snorkeling yang luar biasa.",
+      "pictureId": "https://asset.kompas.com/crops/z5x8tBz15E5RKwQz6IDXFGpmtXo=/0x0:1000x667/750x500/data/photo/2019/11/14/5dcd4a9e0f69d.jpg",
+      "city": "Sulawesi Tengah",
+      "rating": 4.8
+    },
+    {
+      "id": "73",
+      "name": "Taman Laut Olele",
+      "description": "Taman laut dengan keindahan terumbu karang dan spesies ikan yang beragam.",
+      "pictureId": "https://asset.kompas.com/crops/XOpjDsuuN4kjdGtCVY-zzRUkrvE=/0x0:5472x3648/750x500/data/photo/2019/10/27/5db544ae085e7.jpg",
+      "city": "Gorontalo",
+      "rating": 4.7
+    },
+    {
+      "id": "74",
+      "name": "Benteng Otanaha",
+      "description": "Benteng bersejarah dengan pemandangan Danau Limboto yang indah.",
+      "pictureId": "https://atourin.obs.ap-southeast-3.myhuaweicloud.com/images/destination/gorontalo/benteng-otanaha-profile1640787919.jpeg?x-image-process=image/resize,p_100,limit_1/imageslim",
+      "city": "Gorontalo",
+      "rating": 4.6
+    },
+    {
+      "id": "75",
+      "name": "Bukit Kasih",
+      "description": "Bukit dengan pemandangan alam yang indah dan suasana damai di Minahasa.",
+      "pictureId": "https://asset-2.tstatic.net/manado/foto/bank/images/Potret-terbaru-objek-wisata-Bukit-Kasih-Kanonang-Minahasafhfghfyu67fghgf.jpg",
+      "city": "Sulawesi Utara",
+      "rating": 4.6
+    },
+    {
+      "id": "76",
+      "name": "Taman Nasional Togean",
+      "description": "Taman nasional dengan keanekaragaman hayati laut yang tinggi dan pemandangan alam yang menakjubkan.",
+      "pictureId": "https://superlive.id/storage/superadventure/2018/09/13/4f1be25132ba.jpg",
+      "city": "Sulawesi Tengah",
+      "rating": 4.8
+    }
+  ]
+}
