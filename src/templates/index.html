@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Destination X - The best web explorer" />
+    <meta name="keywords" content="travel, destination, adventure, explore" />
+    <title>Destination X</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <a href="#maincontent" class="skip-link">Skip to content</a>
+    <header id="app"></header>
+    <main id="maincontent">
+      <section id="destination-list"></section>
+      <section id="cari">
+        <!-- Konten pencarian -->
+        <h2>Pencarian</h2>
+        <form id="search-form">
+            <!-- Pilihan Provinsi -->
+            <label for="provinsi">Provinsi:</label>
+            <select id="provinsi">
+                <option value="semua">Semua Provinsi</option>
+                <option value="Aceh">Nanggroe Aceh Darussalam</option>
+                <option value="Sumatera Utara">Sumatera Utara</option>
+                <option value="Sumatera Barat">Sumatera Barat</option>
+                <option value="Riau">Riau</option>
+                <option value="Kepulauan Riau">Kepulauan Riau</option>
+                <option value="Jambi">Jambi</option>
+                <option value="Sumatera Selatan">Sumatera Selatan</option>
+                <option value="Bengkulu">Bengkulu</option>
+                <option value="Lampung">Lampung</option>
+                <option value="Bangka Belitung">Bangka Belitung</option>
+                <option value="Kalimantan Barat">Kalimantan Barat</option>
+                <option value="Kalimantan Timur">Kalimantan Timur</option>
+                <option value="Kalimantan Selatan">Kalimantan Selatan</option>
+                <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+                <option value="Kalimantan Utara">Kalimantan Utara</option>
+                <option value="Banten">Banten</option>
+                <option value="DKI Jakarta">DKI Jakarta</option>
+                <option value="Jawa Barat">Jawa Barat</option>
+                <option value="Jawa Tengah">Jawa Tengah</option>
+                <option value="DI Yogyakarta">Daerah Istimewa Yogyakarta</option>
+                <option value="Jawa Timur">Jawa Timur</option>
+                <option value="Bali">Bali</option>
+                <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+                <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+                <option value="Gorontalo">Gorontalo</option>
+                <option value="Sulawesi Barat">Sulawesi Barat</option>
+                <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+                <option value="Sulawesi Utara">Sulawesi Utara</option>
+                <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+                <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                <option value="Maluku Utara">Maluku Utara</option>
+                <option value="Maluku">Maluku</option>
+                <option value="Papua Barat">Papua Barat</option>
+                <option value="Papua">Papua</option>
+                <option value="Papua Tengah">Papua Tengah</option>
+                <option value="Papua Pegunungan">Papua Pegunungan</option>
+                <option value="Papua Selatan">Papua Selatan</option>
+                <option value="Papua Barat Daya">Papua Barat Daya</option>                
+                <!-- Tambahkan opsi untuk setiap provinsi yang tersedia -->
+            </select>
+            <button type="submit">Cari</button>
+            <button type="button" id="reset-btn">Reset</button>
+        </form>
+    </section>
+
+    <section id="hasil-pencarian">
+
+    </section>
+    
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Tentang Kami</h4>
+            <p>
+              Destination X adalah platform yang memungkinkan pengguna untuk
+              menemukan destinasi wisata terbaik di seluruh dunia.
+            </p>
+            <p>
+              Bergabunglah dengan kami untuk menjelajahi dan merencanakan
+              petualangan Anda!
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4>Hubungi Kami</h4>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-map-marker"></i> Jalan Wisata Indah No. 123,
+                Kota Wisata
+              </li>
+              <li><i class="fa fa-phone"></i> +62 123 456 789</li>
+              <li><i class="fa fa-envelope"></i> info@destinationx.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>© 2024 Destination X. Hak Cipta Dilindungi Sejak 2023.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/main.js" type="module"></script>
+  </body>
+</html>
